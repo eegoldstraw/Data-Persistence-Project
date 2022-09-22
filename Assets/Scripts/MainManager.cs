@@ -18,10 +18,7 @@ public class MainManager : MonoBehaviour
     
     private bool m_GameOver = false;
 
-    public void StartGame()
-    {
-        SceneManager.LoadScene(0);
-    }
+   
     // Start is called before the first frame update
     void Start()
     {
